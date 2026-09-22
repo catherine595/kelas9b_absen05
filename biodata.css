@@ -1,0 +1,48 @@
+/* mengatur gaya dasar seluruh halaman web */
+body {
+    background-color: #f0f8ff;
+    font-family: arial, sans-serif;
+    color: #333333;
+}
+
+/* mengatur wadah paling luar agr teksnya rata tengah */
+.wadah-utama {
+    text-align: center;
+}
+
+/* mngahis bagian judul */
+.judul h1 {
+    color: #2c3e50
+}
+
+/* membuat tampilan kotak biodata seperti "kartu" */
+.kartu-biodata {
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    border-style: solid;
+    border-color: #3498db;
+    border-radius: 15px;
+}
+
+/* menghias judul di dalam kartu */
+.kartu-biodata h2 {
+    background-color: #124363;
+    color: white;
+}
+
+/* menghias foto profil agar bentuknya lingkaran dan kekinian */
+.bungkus-foto img {
+    width: 120px;
+    height: 120px;
+    border-style: solid;
+    border-color: #3498db;
+    border-radius: 50%;
+}
+
+/* mengatur teks biodata agar rapi dan rata kiri */
+.informasi-diri {
+    text-align: left;
+    font-size: 14p;
+}
